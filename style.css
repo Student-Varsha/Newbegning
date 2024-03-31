@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.navtop{
+    display: flex;
+    flex-direction: row;
+    height:80px;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+
+}
+.pic1
+{
+    height:1.5vw;
+}
+.pic2
+{
+    height:1.8vw;
+}
+.pic3
+{
+    height:1.8vw;
+}
+.googlepic
+{
+    display: flex;
+    width:8vw;
+    
+   
+}
+
+.setting
+{
+    
+    height:1.5vw;
+    
+}
+.icon
+{
+   
+    height:1.5vw;
+   
+}
+.button
+{
+ 
+    width:5vw;
+    border-radius: 4px;
+    height: 2.2vw;
+    font-size: 1vw;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.search
+{
+    display: flex;
+    width:50vw;
+    height:2vw;
+    border-radius: 24px;
+    border: 0.5px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba( 64,60,67,0.16);
+    padding: 8px;
+
+}
+.navend
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2vw;
+}
+.inputicons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  
+}
+.inputicons ul 
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+  
+}
+
+@media (max-width:600px)
+{
+    *
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.navtop{
+    display: flex;
+    flex-direction: row;
+    height:60px;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+
+}
+.pic1
+{
+    height:1.5vw;
+    display: none;
+}
+.pic2
+{
+    height:1.8vw;
+    display: none;
+}
+.pic3
+{
+    height:1.8vw;
+    display: none;
+}
+.googlepic
+{
+    display: flex;
+    width:8vh;
+    
+   
+}
+
+.setting
+{
+    
+    height:1.5v;
+    display: none;
+    
+}
+.icon
+{
+   
+    height:1.5vh;
+    display: none;
+   
+}
+.button
+{
+ 
+    width:5vh;
+    border-radius: 4px;
+    height: 2.2vh;
+    font-size: 1vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.search
+{
+    display: flex;
+    width:30vh;
+    height:2vh;
+    border-radius: 24px;
+    border: 0.5px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba( 64,60,67,0.16);
+    padding: 6px;
+
+}
+.navend
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1vh;
+}
+.inputicons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  
+}
+.inputicons ul 
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+  
+}
+   
+}
+  
