@@ -91,6 +91,83 @@
     gap: 8px;
   
 }
+.nav2
+{
+    display: flex;
+    width:100%;
+    align-items: center;
+    height:60px;
+    /* background-color: pink; */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#70757a;
+    gap:20px;
+    border-bottom: 1px solid #70757a;
+    
+
+}
+.navicon1
+{
+    margin-left: 225px;
+
+}
+.naviconend
+{
+    width:25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navicontoll
+{
+    width:25%;
+    display: flex;
+    justify-content: end;
+
+    align-items: center;
+}
+.secimg
+{
+    display: flex;
+    width:2vw;
+    height: 2vw;
+    border: 1px solid #70757a;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#firsti
+{
+    width:1vw;
+    height:1vw;
+}
+.morr
+{
+    width:1.5vw;
+}
+.sec1
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    color: #70757a;
+
+}
+.about
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    color: #70757a;
+
+}
+#a1
+{
+    text-decoration: none;
+    color:black;
+}
 
 @media (max-width:600px)
 {
@@ -102,10 +179,12 @@
     font-size: 14px;
 }
 .navtop{
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height:60px;
     align-items: center;
+    gap:10px;
     justify-content: space-around;
     width:100%;
 
@@ -128,7 +207,8 @@
 .googlepic
 {
     display: flex;
-    width:8vh;
+    width:12vh;
+    margin-top: 10px;
     
    
 }
@@ -156,13 +236,14 @@
     font-size: 1vh;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: none;
     
 }
 .search
 {
     display: flex;
-    width:30vh;
-    height:2vh;
+    width:50vh;
+    height:3vh;
     border-radius: 24px;
     border: 0.5px solid transparent;
     box-shadow: 0 2px 5px 1px rgba( 64,60,67,0.16);
@@ -192,6 +273,46 @@
     gap: 8px;
   
 }
+.nav2
+{
+    display: flex;
+    width:100%;
+    align-items: center;
+    height:80px;
+    /* background-color: pink; */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#70757a;
+    gap:10px;
+    border-bottom: 1px solid #70757a;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.navicon1
+{
+    display: none;
+    margin-left: 225px;
+
+}
+
+.naviconend
+{
+    
+    width:25%;
+    display: none;
+    justify-content: end;
+    align-items: center;
+}
+.navicontoll
+{
+    width:25%;
+    display: flex;
+    justify-content: end;
+    display: none;
+    align-items: center;
+}
+
    
 }
   
